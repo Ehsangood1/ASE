@@ -1,0 +1,15 @@
+.DS_Store
+**/bin/
+**/target/
+*.dSYM
+*.bin
+*.out
+MathPlot/plot.png
+**/node_modules/
+**/dist/
+**/build/
+**/__pycache__/
+**/venv/
+**/.coverage
+**/coverage/
+**/htmlcov/
