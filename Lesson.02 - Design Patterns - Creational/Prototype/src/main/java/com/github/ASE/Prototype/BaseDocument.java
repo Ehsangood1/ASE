@@ -13,7 +13,5 @@ public abstract class BaseDocument implements Document {
     }
 
     @Override
-    public Document clone() {
-        return null;
-    }
+    public abstract Document clone();
 }
