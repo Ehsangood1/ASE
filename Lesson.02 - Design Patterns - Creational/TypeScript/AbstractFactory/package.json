@@ -1,0 +1,17 @@
+{
+  "name": "abstract-factory-typescript",
+  "version": "1.0.0",
+  "description": "Abstract Factory Design Pattern implementation in TypeScript",
+  "main": "src/App.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "serve": "http-server",
+    "start": "npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.0.0"
+  }
+}
