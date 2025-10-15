@@ -1,5 +1,6 @@
 .DS_Store
 **/bin/
+**/obj/
 **/target/
 *.dSYM
 *.bin
@@ -13,3 +14,4 @@ MathPlot/plot.png
 **/.coverage
 **/coverage/
 **/htmlcov/
+*.sln
