@@ -39,6 +39,12 @@ public class Holiday implements TaxVisitor {
         return tax;
     }
 
+    /*
+     * @Override public double visit(Car car) {
+     * System.out.println("Car (Holiday): 75% tax"); double tax = car.getPrice() *
+     * 0.75; totalTax += tax; return tax; }
+     */
+
     @Override
     public double getTax() {
         return totalTax;

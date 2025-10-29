@@ -14,5 +14,7 @@ public interface TaxVisitor {
 
     double visit(Luxury luxury);
 
+    /* double visit(Car car); */
+
     double getTax();
 }
