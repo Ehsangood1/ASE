@@ -14,6 +14,10 @@ The student should implement the following features:
 - The software should be able to simplify both *function* and its first-order derivative.
 - The code already provides a Facade class (MathPlot), a Plotter Interface, and two parsers, one for AOS, one for RPN. The student should add everything that is missing to achieve the Mathplot implementation.
 
+## Notes
+
+- The Plotter implementation performs the affine transformations from real coordinates to screen ones automatically, so points must be specified in real cartesian coordinates. (0,0) is the center of the canvas, positives on top-right, negatives on bottom-left.
+
 ## Exam Requirements
 
 - The software must be written in Java language.
